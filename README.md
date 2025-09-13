@@ -1,5 +1,3 @@
-# ALX-PROJECT-NEXUS
-
 # 📘 Project Nexus Documentation
 
 Welcome to my documentation hub for the **ProDev Frontend Engineering Program**. This repository consolidates my key learnings, challenges, and insights from the program, serving as both a personal reference and a resource for fellow developers.
