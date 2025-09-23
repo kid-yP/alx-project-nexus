@@ -68,7 +68,7 @@ Join the conversation on Discord: `#ProDevProjectNexus`
 ## 📅 Submission Details
 
 - **Repository Name:** `alx-project-nexus`
-- **Deadline:** September 15, 2025, 12:00 AM
+- **Deadline:** September 28, 2025, 12:00 AM
 - **Review Link:** Generated upon submission
 - **Evaluation:** Manual review + auto-check for required files
 
