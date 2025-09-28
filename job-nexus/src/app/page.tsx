@@ -7,6 +7,8 @@ import CategoriesSection from "@/components/home/CategoriesSection";
 import CTASection from "@/components/home/CTASection";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
 
+export const dynamic = 'force-dynamic'
+
 export default function HomePage() {
   const searchRef = useRef<HTMLDivElement>(null);
 
