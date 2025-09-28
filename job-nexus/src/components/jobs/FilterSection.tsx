@@ -3,8 +3,18 @@
 import { useState, useEffect, useCallback } from "react";
 import HiringBanner from "./HiringBanner";
 
+interface Filters {
+  search: string;
+  location: string;
+  categories: string[];
+  jobTypes: string[];
+  experienceLevels: string[];
+  datePosted: string;
+  minSalary: number;
+}
+
 interface FilterSectionProps {
-  onSearchClick: (filters: any) => void;
+  onSearchClick: (filters: Filters) => void;
   loading: boolean;
   onResetFilters: () => void;
 }
@@ -85,7 +95,7 @@ export default function FilterSection({ onSearchClick, loading, onResetFilters }
 
   // Handle search click
   const handleSearchClickInternal = () => {
-    const filters = {
+    const filters: Filters = {
       search: searchText,
       location: location,
       categories: selectedCategories,
