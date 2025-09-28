@@ -17,12 +17,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        <Suspense fallback={<div className="p-4 text-center">Loading...</div>}>
+        {/* Navbar */}
+        <Suspense fallback={<div className="p-4 text-center">Loading Navbar...</div>}>
           <Navbar />
         </Suspense>
 
-        <main className="flex-1">{children}</main>
+        {/* Page Content (wrap all pages in Suspense) */}
+        <main className="flex-1">
+          <Suspense fallback={<div className="p-8 text-center">Loading Page...</div>}>
+            {children}
+          </Suspense>
+        </main>
 
+        {/* Footer */}
         <Footer />
       </body>
     </html>
