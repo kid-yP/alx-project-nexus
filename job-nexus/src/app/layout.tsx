@@ -1,9 +1,8 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import "./globals.css";
-import { Suspense } from "react"; // ✅ for handling client-side hooks
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Job Nexus",
@@ -18,18 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
-        {/* Navbar (may use client-side hooks like useSearchParams) */}
-        <Suspense fallback={<div>Loading navigation...</div>}>
+        <Suspense fallback={<div className="p-4 text-center">Loading...</div>}>
           <Navbar />
         </Suspense>
 
-        {/* Page Content */}
         <main className="flex-1">{children}</main>
 
-        {/* Footer (safe to wrap just in case) */}
-        <Suspense fallback={<div>Loading footer...</div>}>
-          <Footer />
-        </Suspense>
+        <Footer />
       </body>
     </html>
   );
