@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export interface Job {
@@ -24,10 +23,9 @@ export interface Job {
 
 interface JobCardProps {
   job: Job;
-  index: number;
 }
 
-export default function JobCard({ job, index }: JobCardProps) {
+export default function JobCard({ job }: JobCardProps) {
   const router = useRouter();
 
   const handleClick = (e: React.MouseEvent) => {
