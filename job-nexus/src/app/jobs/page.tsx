@@ -6,8 +6,6 @@ import TopCompanies from "@/components/jobs/TopCompanies";
 import { useState, useEffect, useLayoutEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 
-export const dynamic = 'force-dynamic';
-
 interface PaginationInfo {
   currentPage: number;
   totalPages: number;
@@ -429,4 +427,5 @@ export default function JobsPage() {
     </>
   );
 }
+
 
