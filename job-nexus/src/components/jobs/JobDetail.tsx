@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 interface Job {
   id: string;
   title: string;
@@ -26,7 +28,7 @@ export default function JobDetail({ job }: JobDetailProps) {
     <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-purple-900">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Back Button */}
-        <a 
+        <Link 
           href="/jobs"
           className="inline-flex items-center text-white/80 hover:text-white mb-8 transition-colors"
         >
@@ -34,7 +36,7 @@ export default function JobDetail({ job }: JobDetailProps) {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
           </svg>
           Back to Jobs
-        </a>
+        </Link>
 
         {/* Job Card */}
         <div className="bg-white/10 backdrop-blur-md rounded-xl border border-white/20 p-8 mb-8">
