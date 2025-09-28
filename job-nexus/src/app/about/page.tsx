@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 
-export const dynamic = 'force-dynamic';
+export const dynamic = 'force-dynamic'
 
 export default function AboutUsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -311,3 +311,4 @@ export default function AboutUsPage() {
     </>
   );
 }
+
