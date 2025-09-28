@@ -352,7 +352,7 @@ export default function JobsPage() {
                         className="job-card"
                         style={{ animationDelay: `${index * 0.1}s` }}
                       >
-                        <JobCard job={job} index={index} />
+                        <JobCard job={job} />
                       </div>
                     ))
                   ) : (
