@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 
+export const dynamic = 'force-dynamic';
+
 export default function AboutUsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -158,7 +160,7 @@ export default function AboutUsPage() {
         <div className="max-w-6xl mx-auto px-4 py-16 relative z-10">
           {/* Hero Section */}
           <section className="text-center mb-20">
-            <h1 className="text-5xl font-bold text-white mb-6">Why We're The Best Choice</h1>
+            <h1 className="text-5xl font-bold text-white mb-6">Why We&apos;re The Best Choice</h1>
           </section>
 
           {/* Why Company is Great Section */}
@@ -261,7 +263,7 @@ export default function AboutUsPage() {
 
           {/* Best Companies Section */}
           <section className="mb-20" ref={companiesRef}>
-            <h2 className="text-4xl font-bold text-white text-center mb-16">We're Only Working With The Best</h2>
+            <h2 className="text-4xl font-bold text-white text-center mb-16">We&apos;re Only Working With The Best</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
               {["Giving Job", "Human Estate", "Technopaste", "Top Team"].map((company, index) => (
                 <div 
