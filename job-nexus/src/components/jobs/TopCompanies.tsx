@@ -55,7 +55,7 @@ export default function TopCompanies() {
       delay: 0.1
     },
     { 
-      name: "McDonald's", 
+      name: "McDonald&apos;s", 
       description: "Global fast-food restaurant chain serving millions daily", 
       jobs: 12,
       color: "bg-gradient-to-r from-yellow-500 to-red-600",
@@ -157,7 +157,7 @@ export default function TopCompanies() {
                 animationDelay: '0.2s'
               } : {}}
             >
-              Discover opportunities at some of the world's most innovative and respected companies
+              Discover opportunities at some of the world&apos;s most innovative and respected companies
             </p>
           </div>
           
