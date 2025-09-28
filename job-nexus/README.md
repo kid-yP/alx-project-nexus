@@ -1,8 +1,8 @@
-🌐 JobNexus
+#🌐 JobNexus
 
 A modern job board platform for seamless job discovery and application.
 
-📄 Overview
+#📄 Overview
 
 JobNexus is a responsive web application built for the ALX Project Nexus (Frontend Development track). It empowers users to:
 
@@ -16,18 +16,18 @@ JobNexus is a responsive web application built for the ALX Project Nexus (Fronte
 
 Developed over 2 weeks in collaboration with a backend partner from ALX BE ProDev (Backend Development track).
 
-🎨 Figma Design
+#🎨 Figma Design
 
 https://www.figma.com/design/Sn7j3S6IxpblDvh9gO4uU7/Interactive-Job-Board-Platform-%E2%80%93-Project-Nexus?node-id=0-1&t=GMmoSNhoDqcYIUpk-0
 
-🧱 Tech Stack
+#🧱 Tech Stack
 
 Layer	Technology
 Frontend	Next.js (App Router), TypeScript, Tailwind CSS, Apollo Client
 Backend	Custom API routes via Next.js App Router
 Deployment	Vercel
 
-✨ Features
+#✨ Features
 
 ✅ Dynamic job listings with API integration
 
@@ -45,7 +45,7 @@ Deployment	Vercel
 
 ✅ Modular codebase with reusable components
 
-🛠️ Installation
+#🛠️ Installation
 
 bash
 # Clone the repository
@@ -65,7 +65,7 @@ To customize mock job data, edit:
 ts
 src/mocks/jobs.ts
 
-🧪 API Overview
+#🧪 API Overview
 
 JobNexus uses Next.js App Router to define backend routes. Example of a GET handler for recent jobs:
 
@@ -88,7 +88,7 @@ export async function GET() {
   return NextResponse.json(jobs);
 }
 
-📂 Project Structure
+#📂 Project Structure
 
 bash
 src/
@@ -106,7 +106,7 @@ src/
 ├── styles/
 │   └── globals.css
 
-📊 Filtering & Sorting
+#📊 Filtering & Sorting
 
 Filters: Category, job type, experience level, date posted, salary range
 
@@ -114,7 +114,7 @@ Sorting: Latest, highest salary, relevance
 
 Powered by mock API with pagination and query parameters
 
-🧩 Animations
+#🧩 Animations
 
     ✨ Mouse-following gradient effects
 
@@ -122,7 +122,7 @@ Powered by mock API with pagination and query parameters
 
     🔁 Trusted companies animation repeats every 5 seconds
 
-📈 Roadmap
+#📈 Roadmap
 
     ✅ UI Finalization
 
@@ -134,12 +134,12 @@ Powered by mock API with pagination and query parameters
 
     ⏳ Resume Upload & Application Tracking
 
-📸 Demo
+#📸 Demo
 
 🔗 Live Preview: JobNexus
 
 
-📊 Evaluation Criteria
+#📊 Evaluation Criteria
 
 Functionality: API integration, filtering, responsive design
 
