@@ -1,17 +1,13 @@
 // next.config.js
 import type { NextConfig } from "next";
-const withTM = require("next-transpile-modules")([
-  "@nodelib/fs.scandir",
-  "@nodelib/fs.walk",
-  "fast-glob"
-]);
 
-const nextConfig: NextConfig = withTM({
+const nextConfig: NextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    serverActions: true
-  }
-});
+  transpilePackages: [
+    "@nodelib/fs.scandir",
+    "@nodelib/fs.walk",
+    "fast-glob"
+  ],
+};
 
 export default nextConfig;
