@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 
+export const dynamic = 'force-dynamic';
+
 export default function ContactUsPage() {
   const [formData, setFormData] = useState({
     firstName: "",
