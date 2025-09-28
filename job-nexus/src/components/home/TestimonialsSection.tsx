@@ -164,7 +164,7 @@ export default function TestimonialsSection() {
               }}
             >
               <h3 className="font-semibold text-2xl mb-4 text-blue-200">{t.quote}</h3>
-              <p className="text-lg text-white/90 mb-6 italic leading-relaxed">"{t.text}"</p>
+              <p className="text-lg text-white/90 mb-6 italic leading-relaxed">&quot;{t.text}&quot;</p>
               <div className="flex items-center">
                 <div className="text-blue-200 mr-4 text-3xl">
                   {t.avatar}
