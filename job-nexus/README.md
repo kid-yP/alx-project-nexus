@@ -49,7 +49,7 @@ Deployment	Vercel
 
 bash
 # Clone the repository
-git clone https://github.com/yuslove1/Project-Nexus.git
+git clone https://github.com/kid-yP/alx-project-nexus.git
 
 # Navigate to the project directory
 cd job-nexus
