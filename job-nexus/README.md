@@ -1,39 +1,33 @@
-#🌐 JobNexus
-
+🌐 JobNexus
 A modern job board platform for seamless job discovery and application.
 
-#📄 Overview
+📄 Overview
+JobNexus is a sleek, responsive web application built for the ALX Project Nexus (Frontend Development track). It empowers users to:
 
-JobNexus is a responsive web application built for the ALX Project Nexus (Frontend Development track). It empowers users to:
-
-🔍 Browse job listings dynamically via custom API routes
+🔍 Browse dynamic job listings via custom API routes
 
 🧭 Filter jobs by category, location, experience level, and salary
 
 📄 View detailed job descriptions and company profiles
 
-📱 Enjoy a polished, mobile-first interface with smooth animations
+📱 Enjoy a mobile-first interface with smooth animations
 
-Developed over 2 weeks in collaboration with a backend partner from ALX BE ProDev (Backend Development track).
+Developed in just 2 weeks in collaboration with a backend partner from ALX BE ProDev.
 
-#🎨 Figma Design
+🎨 Figma Design
+Explore the interactive prototype: 👉 Figma Design – JobNexus
 
-https://www.figma.com/design/Sn7j3S6IxpblDvh9gO4uU7/Interactive-Job-Board-Platform-%E2%80%93-Project-Nexus?node-id=0-1&t=GMmoSNhoDqcYIUpk-0
-
-#🧱 Tech Stack
-
+🧱 Tech Stack
 Layer	Technology
 Frontend	Next.js (App Router), TypeScript, Tailwind CSS, Apollo Client
 Backend	Custom API routes via Next.js App Router
 Deployment	Vercel
-
-#✨ Features
-
+✨ Features
 ✅ Dynamic job listings with API integration
 
 ✅ Advanced filtering (category, location, experience, salary)
 
-✅ Responsive design (mobile-first) using Tailwind CSS
+✅ Responsive mobile-first design with Tailwind CSS
 
 ✅ Trusted companies showcase with repeat animations
 
@@ -45,8 +39,7 @@ Deployment	Vercel
 
 ✅ Modular codebase with reusable components
 
-#🛠️ Installation
-
+🛠️ Installation
 bash
 # Clone the repository
 git clone https://github.com/kid-yP/alx-project-nexus.git
@@ -59,19 +52,14 @@ npm install
 
 # Run the development server
 npm run dev
-⚙️ Configuration
-To customize mock job data, edit:
+⚙️ To customize mock job data, edit: src/mocks/jobs.ts
+
+🧪 API Overview
+JobNexus uses Next.js App Router to define backend routes.
+
+Example: GET /api/jobs/recent
 
 ts
-src/mocks/jobs.ts
-
-#🧪 API Overview
-
-JobNexus uses Next.js App Router to define backend routes. Example of a GET handler for recent jobs:
-
-ts
-// app/api/jobs/recent/route.ts
-
 import { NextResponse } from 'next/server';
 
 export async function GET() {
@@ -87,10 +75,8 @@ export async function GET() {
 
   return NextResponse.json(jobs);
 }
-
-#📂 Project Structure
-
-bash
+📂 Project Structure
+Code
 src/
 ├── components/
 │   └── jobs/
@@ -105,42 +91,51 @@ src/
 │       └── route.ts
 ├── styles/
 │   └── globals.css
+📊 Filtering & Sorting
+Filters:
 
-#📊 Filtering & Sorting
+Category
 
-Filters: Category, job type, experience level, date posted, salary range
+Job type
 
-Sorting: Latest, highest salary, relevance
+Experience level
 
-Powered by mock API with pagination and query parameters
+Date posted
 
-#🧩 Animations
+Salary range
 
-    ✨ Mouse-following gradient effects
+Sorting Options:
 
-    🎬 Fade-in transitions for FAQ, companies, and hero sections
+Latest
 
-    🔁 Trusted companies animation repeats every 5 seconds
+Highest salary
 
-#📈 Roadmap
+Relevance
 
-    ✅ UI Finalization
+Powered by a mock API with pagination and query parameters.
 
-    ✅ API Route Integration
+🧩 Animations
+✨ Mouse-following gradient effects
 
-    ✅ Filtering & Sorting
+🎬 Fade-in transitions for FAQ, companies, and hero sections
 
-    ✅ Authentication & User Dashboard
+🔁 Trusted companies animation repeats every 5 seconds
 
-    ⏳ Resume Upload & Application Tracking
+📈 Roadmap
+✅ UI Finalization
 
-#📸 Demo
+✅ API Route Integration
 
-🔗 Live Preview: JobNexus
+✅ Filtering & Sorting
 
+✅ Authentication & User Dashboard
 
-#📊 Evaluation Criteria
+⏳ Resume Upload & Application Tracking (Coming Soon)
 
+📸 Demo
+🔗 Live Preview: 
+
+📊 Evaluation Criteria
 Functionality: API integration, filtering, responsive design
 
 Code Quality: TypeScript practices, modular structure
