@@ -1,7 +1,9 @@
 🌐 JobNexus
+
 A modern job board platform for seamless job discovery and application.
 
 📄 Overview
+
 JobNexus is a sleek, responsive web application built for the ALX Project Nexus (Frontend Development track). It empowers users to:
 
 🔍 Browse dynamic job listings via custom API routes
@@ -15,14 +17,18 @@ JobNexus is a sleek, responsive web application built for the ALX Project Nexus 
 Developed in just 2 weeks in collaboration with a backend partner from ALX BE ProDev.
 
 🎨 Figma Design
+
 Explore the interactive prototype: 👉 Figma Design – JobNexus
 
 🧱 Tech Stack
+
 Layer	Technology
 Frontend	Next.js (App Router), TypeScript, Tailwind CSS, Apollo Client
 Backend	Custom API routes via Next.js App Router
 Deployment	Vercel
+
 ✨ Features
+
 ✅ Dynamic job listings with API integration
 
 ✅ Advanced filtering (category, location, experience, salary)
@@ -91,7 +97,9 @@ src/
 │       └── route.ts
 ├── styles/
 │   └── globals.css
+
 📊 Filtering & Sorting
+
 Filters:
 
 Category
@@ -115,6 +123,7 @@ Relevance
 Powered by a mock API with pagination and query parameters.
 
 🧩 Animations
+
 ✨ Mouse-following gradient effects
 
 🎬 Fade-in transitions for FAQ, companies, and hero sections
@@ -133,7 +142,7 @@ Powered by a mock API with pagination and query parameters.
 ⏳ Resume Upload & Application Tracking (Coming Soon)
 
 📸 Demo
-🔗 Live Preview: 
+🔗 Live Preview: job-nexus-plum.vercel.app
 
 📊 Evaluation Criteria
 Functionality: API integration, filtering, responsive design
