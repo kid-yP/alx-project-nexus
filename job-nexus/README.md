@@ -18,7 +18,7 @@ Developed in just 2 weeks in collaboration with a backend partner from ALX BE Pr
 
 🎨 Figma Design
 
-Explore the interactive prototype: 👉 Figma Design – JobNexus
+Explore the interactive prototype: 👉 Figma Design – [JobNexus](https://www.figma.com/design/Sn7j3S6IxpblDvh9gO4uU7/Interactive-Job-Board-Platform-%E2%80%93-Project-Nexus?node-id=0-1&t=EXT78vWCLfKrfyjL-0)
 
 🧱 Tech Stack
 
