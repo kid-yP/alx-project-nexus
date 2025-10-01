@@ -1,18 +1,17 @@
 🌐 JobNexus
-
-A modern job board platform for seamless job discovery and application.
+  A modern job board platform for seamless job discovery and application.
 
 📄 Overview
 
 JobNexus is a sleek, responsive web application built for the ALX Project Nexus (Frontend Development track). It empowers users to:
 
-🔍 Browse dynamic job listings via custom API routes
+  🔍 Browse dynamic job listings via custom API routes
+  
+  🧭 Filter jobs by category, location, experience level, and salary
 
-🧭 Filter jobs by category, location, experience level, and salary
+  📄 View detailed job descriptions and company profiles
 
-📄 View detailed job descriptions and company profiles
-
-📱 Enjoy a mobile-first interface with smooth animations
+  📱 Enjoy a mobile-first interface with smooth animations
 
 Developed in just 2 weeks in collaboration with a backend partner from ALX BE ProDev.
 
@@ -22,28 +21,28 @@ Explore the interactive prototype: 👉 Figma Design – [JobNexus](https://www.
 
 🧱 Tech Stack
 
-Layer	Technology
-Frontend	Next.js (App Router), TypeScript, Tailwind CSS, Apollo Client
-Backend	Custom API routes via Next.js App Router
-Deployment	Vercel
+  Layer	Technology
+  Frontend	Next.js (App Router), TypeScript, Tailwind CSS, Apollo Client
+  Backend	Custom API routes via Next.js App Router
+  Deployment	Vercel
 
 ✨ Features
 
-✅ Dynamic job listings with API integration
+  ✅ Dynamic job listings with API integration
 
-✅ Advanced filtering (category, location, experience, salary)
+  ✅ Advanced filtering (category, location, experience, salary)
 
-✅ Responsive mobile-first design with Tailwind CSS
+  ✅ Responsive mobile-first design with Tailwind CSS
 
-✅ Trusted companies showcase with repeat animations
+  ✅ Trusted companies showcase with repeat animations
 
-✅ Mouse-following gradient effects
+  ✅ Mouse-following gradient effects
 
-✅ Accessible job detail pages
+  ✅ Accessible job detail pages
 
-✅ Loading states & error handling
+  ✅ Loading states & error handling
 
-✅ Modular codebase with reusable components
+  ✅ Modular codebase with reusable components
 
 🛠️ Installation
 bash
